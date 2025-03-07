@@ -3,9 +3,9 @@ TargetRDS=""
 RestoreTime="YYYY-MM-DDTHH:MM:SSZ"
 DBName=""
 Region="eu-central-1"
-AZ="eu-central-1"
-TargetRDSSize="db.r5.xlarge"
-TargetRDSPort="1524"
+AZ=""
+TargetRDSInstanceSize=""
+TargetRDSPort=""
 TargetRDSSubnetGroup=""
 TargetRDSOptionGroup=""
 TargetRDSParameterGroup=""
@@ -22,7 +22,7 @@ aws rds restore-db-instance-to-point-in-time  \
  --restore-time $RestoreTime \
  --db-name $DBName \
  --region $Region \
- --db-instance-class $TargetRDSSize \
+ --db-instance-class $TargetRDSInstanceSize \
  --port $TargetRDSPort \
  --storage-type gp2 \
  --availability-zone $AZ \
