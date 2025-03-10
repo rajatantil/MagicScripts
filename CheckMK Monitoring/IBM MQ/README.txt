@@ -1,0 +1,1 @@
+CheckMK monitoring script for IBM MQ channel. Simply place in checkmk local folder.

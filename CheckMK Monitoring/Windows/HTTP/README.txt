@@ -1,0 +1,1 @@
+Update the URL variable to start monitoring specific URL. Simply place in checkmk local folder.
